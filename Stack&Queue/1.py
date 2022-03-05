@@ -1,10 +1,12 @@
+#기능 개발
 from collections import deque
 
 def solution(progresses, speeds):
-    answer = []
     queue = deque()
     for i in range(len(progresses)):
         queue.append([progresses[i], speeds[i]])
+
+    answer = []
     while queue:
         for i in range(len(queue)):
             queue[i][0] += queue[i][1]
