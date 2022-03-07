@@ -1,4 +1,4 @@
-#프린터
+# 프린터
 from collections import deque
 
 def solution(priorities, location):

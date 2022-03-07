@@ -1,4 +1,4 @@
-#기능 개발
+# 기능 개발
 from collections import deque
 
 def solution(progresses, speeds):
